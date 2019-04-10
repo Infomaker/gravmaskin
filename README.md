@@ -9,3 +9,8 @@ This project is a result of the gräv hackathon aranged by infomaker 2019.
 ```
 ./gradlew clean assemble run
 ```
+
+##To build applications:
+```
+./gradlew clean build
+```
