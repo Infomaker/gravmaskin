@@ -77,7 +77,7 @@ task copyOSXApp (type: Copy) {
 }
 
 task copyJarToOSX (type: Copy) {
-    from 'build/libs/actapublica-hack2019.jar'
+    from 'build/libs/gravmaskin.jar'
     from configurations.runtime
     into 'build/app/Gravmaskin.app/Contents/Resources/Java/repo/se/infomaker/actapublica/'
 }
@@ -88,7 +88,7 @@ task copyWinApp (type: Copy) {
 }
 
 task copyJarToWin (type: Copy) {
-    from 'build/libs/actapublica-hack2019.jar'
+    from 'build/libs/gravmaskin.jar'
     from configurations.runtime
     into 'build/app/Gravmaskin/lib/'
 }

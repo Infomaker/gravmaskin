@@ -57,7 +57,7 @@
             <string>$APP_PACKAGE</string>
             <key>ClassPath</key>
             <array>
-                <string>$JAVAROOT/repo/se/infomaker/actapublica/actapublica-hack2019.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/gravmaskin.jar</string>
                 <string>$JAVAROOT/repo/se/infomaker/actapublica/adapter-rxjava2-2.5.0.jar</string>
                 <string>$JAVAROOT/repo/se/infomaker/actapublica/annotations-13.0.jar</string>
                 <string>$JAVAROOT/repo/se/infomaker/actapublica/commons-codec-1.10.jar</string>
