@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleName</key>
+        <string>Grävmaskin</string>
+        <key>CFBundleDisplayName</key>
+        <string>Grävmaskin</string>
+        <key>CFBundleIdentifier</key>
+        <string>se.infomaker.actapublica.Gravmaskin</string>
+        <key>CFBundleVersion</key>
+        <string>10.2</string>
+        <key>CFBundleAllowMixedLocalizations</key>
+        <string>true</string>
+        <key>CFBundleExecutable</key>
+        <string>JavaApplicationStub</string>
+        <key>CFBundleDevelopmentRegion</key>
+        <string>English</string>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>CFBundleShortVersionString</key>
+        <string>1.0</string>
+        <key>CFBundleSignature</key>
+        <string>GraV</string>
+        <key>CFBundleGetInfoString</key>
+        <string>1.0</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleIconFile</key>
+        <string>Gravmaskin.icns</string>
+        <key>NSHighResolutionCapable</key>
+        <string>true</string>
+
+        <key>LSRequiresNativeExecution</key>
+        <string>YES</string>
+        <key>LSMinimumSystemVersion</key>
+        <string>10.7.3</string>
+
+        <!-- remove these 2 lines if you want /usr/libexec/java_home to handle jvm selection -->
+<!--
+        <key>JVMRuntime</key>
+        <string>jdk1.8.0_201.jdk</string>
+-->
+
+        <key>OracleJava</key>
+        <dict>
+            <key>VMOptions</key>
+            <array>
+                <string>-Xms512m</string>
+                <string>-Xmx512m</string>
+            </array>
+            <key>MainClass</key>
+            <string>se.infomaker.actapublica.app.MyApp</string>
+            <key>JVMVersion</key>
+            <string>1.8*</string>
+            <key>WorkingDirectory</key>
+            <string>$APP_PACKAGE</string>
+            <key>ClassPath</key>
+            <array>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/actapublica-hack2019.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/adapter-rxjava2-2.5.0.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/annotations-13.0.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/commons-codec-1.10.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/commons-collections4-4.1.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/controlsfx-8.40.14.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/converter-gson-2.5.0.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/curvesapi-1.04.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/fontawesomefx-8.9.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/gson-2.8.5.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/javax.json-1.1.2.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/javax.json-api-1.1.2.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/kotlin-reflect-1.2.60.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/kotlin-stdlib-1.2.60.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/kotlin-stdlib-common-1.2.60.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/kotlin-stdlib-jdk7-1.2.60.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/kotlin-stdlib-jdk8-1.2.60.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/logging-interceptor-3.13.1.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/okhttp-3.13.1.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/okio-1.17.2.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/poi-3.17.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/poi-ooxml-3.17.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/poi-ooxml-schemas-3.17.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/reactive-streams-1.0.2.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/retrofit-2.5.0.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/rxjava-2.2.7.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/rxjavafx-2.1.0.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/rxrelay-2.1.0.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/slf4j-api-1.7.25.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/stax-api-1.0.1.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/tornadofx-1.7.17.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/tornadofx-controlsfx-0.1.jar</string>
+                <string>$JAVAROOT/repo/se/infomaker/actapublica/xmlbeans-2.6.0.jar</string>
+            </array>
+            <key>Properties</key>
+            <dict>
+                <key>log4j.defaultInitOverride</key>
+                <string>true</string>
+                <key>apple.laf.useScreenMenuBar</key>
+                <string>true</string>
+                <key>java.security.policy</key>
+                <string>$APP_PACKAGE/resource/sample.policy</string>
+                <key>java.security.manager</key>
+                <string></string>
+            </dict>
+        </dict>
+    </dict>
+</plist>

@@ -71,16 +71,44 @@ jar {
     }
 }
 
-task copyMacOSFiles (type: Copy) {
-    from 'src/main/app-resources'
+task copyOSXApp (type: Copy) {
+    from 'src/main/osx-app-resources'
     into 'build/app/'
 }
 
-task copyMacOSJarFiles (type: Copy) {
+task copyJarToOSX (type: Copy) {
     from 'build/libs/actapublica-hack2019.jar'
     from configurations.runtime
-    into 'build/app/Gravmaskin.app/Contents/Resources/Java/repo/se/infomaker/actapublica'
+    into 'build/app/Gravmaskin.app/Contents/Resources/Java/repo/se/infomaker/actapublica/'
 }
 
-build.dependsOn(copyMacOSFiles)
-build.dependsOn(copyMacOSJarFiles)
+task copyWinApp (type: Copy) {
+    from 'src/main/win-app-resources'
+    into 'build/app/'
+}
+
+task copyJarToWin (type: Copy) {
+    from 'build/libs/actapublica-hack2019.jar'
+    from configurations.runtime
+    into 'build/app/Gravmaskin/lib/'
+}
+
+
+task zipWinApp(type: Zip) {
+    archiveName = "Gravmaskin.zip"
+    from 'build/app/Gravmaskin/'
+    into 'Gravmaskin'
+}
+
+task zipOSXApp(type: Zip) {
+    archiveName = "Gravmaskin.app.zip"
+    from 'build/app/Gravmaskin.app/'
+    into 'Gravmaskin.app'
+}
+
+build.dependsOn(copyWinApp)
+build.dependsOn(copyJarToWin)
+build.dependsOn(copyOSXApp)
+build.dependsOn(copyJarToOSX)
+build.dependsOn(zipOSXApp)
+build.dependsOn(zipWinApp)
