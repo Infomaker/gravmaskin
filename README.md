@@ -1,9 +1,11 @@
 # Grävmaskin
 To be clear: **THIS IS A HACK** 
 
-This project is a result of the gräv hackathon arranged by infomaker 2019.
+This project is a result of the gräv hackathon arranged by infomaker 2019. 
 
 [https://www.infomaker.se/news/infomaker-hackathon-pa-grav-2019/](https://www.infomaker.se/news/infomaker-hackathon-pa-grav-2019/)
+
+Built by developers from Infomaker and Max Pröckl [max.prockl@tv4.se](mailto:max.prockl@tv4.se) from TV4.
 
 ## To download 
 
